@@ -1,0 +1,19 @@
+{%extends "base.html"%}
+{%block head%}
+"Attendence"
+{%endblock%}
+
+{%block body%}
+<form action="/upload_capture" method="post">
+  <h2></h2>
+  <br>
+  <br>
+  <label>Upload images:</label>
+  <input type="file" name="images" multiple>
+  <br>
+  <br>
+  <input type="submit" name="submit" />
+
+
+
+{%endblock%}
